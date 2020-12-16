@@ -1,11 +1,12 @@
 //import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import Footer from './components/Footer';
 
-export const App = () =>{
+export const App = () => {
+
   return (
     <div className="App">
-      <body>
         <nav>
           <ul>
             <li>App Name</li>
@@ -13,14 +14,12 @@ export const App = () =>{
             <li>About Me</li>
           </ul>
         </nav>
-        <div></div>
-        <footer>
-          <p>Develop by Miguel González Bravo &copy; {getYear}</p>
-        </footer>
-      </body>
+        <div>
+          <Footer></Footer>
+        </div>
     </div>
-);
-}  
+  );
+}
 
 
 export default App;
